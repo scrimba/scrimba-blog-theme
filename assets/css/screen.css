@@ -113,7 +113,7 @@ body {
     position: relative;
     margin-top: 64px;
     padding-bottom: 12px;
-    color: #fff;
+    color: #000;
     background: color-mod(var(--scrimba-purple) l(-5%)) no-repeat center center;
     background-size: cover;
 }
@@ -176,7 +176,7 @@ body {
     z-index: 10;
     margin: 0;
     padding: 5px 0;
-    font-size: 2.1rem;
+    font-size: 3rem;
     line-height: 1.4em;
     font-weight: 400;
     opacity: 0.8;
@@ -402,9 +402,10 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     position: relative;
     display: block;
     padding: 12px 12px;
-    color: #fff;
+    color: #000;
     opacity: 0.8;
     transition: opacity 0.35s ease-in-out;
+    font-weight: bold;
 }
 
 .nav li a:hover {
@@ -508,7 +509,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .social-link svg {
     height: 1.8rem;
-    fill: #fff;
+    fill: #000;
 }
 
 .social-link-fb svg {
